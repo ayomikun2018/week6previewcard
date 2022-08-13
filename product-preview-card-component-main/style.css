@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
+*{
+    border:0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.all{
+    background-color: hsl(30, 38%, 92%);
+}
+.product-section{
+  align-items: center;
+}
+.product-detail-container{
+ 
+ width: 20rem;
+ height: 30rem; 
+ background-color: white; 
+ border-radius:0 10px 10px 0;
+}
+.product-img-container{
+    width: 20rem;
+    height: 30rem;
+    border-radius:0 10px 10px 0;
+}
+.product-img{
+width: 100%;
+height: 100%;
+border-radius: 10px 0px 0px 10px;
+}
+.product-type{
+    font-family:'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+    letter-spacing: 5px;
+}
+.product-name{
+    font-family:'Fraunces', sans-serif;
+    font-weight: 700;
+}
+.product-description{
+    font-family:'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%)
+}
+.product-price{
+   color: hsl(158, 36%, 37%);
+   font-family:'Fraunces', sans-serif;
+}
+.old-product-price{
+    font-family:'Montserrat', sans-serif; 
+    color: hsl(228, 12%, 48%)
+}
+
